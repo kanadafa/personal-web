@@ -28,9 +28,9 @@ export default {
   data() {
     return ({
       links: {
-        phaser: process.env.NODE_ENV !== 'production' ? '/personal-web/dist/phaser' : '/phaser',
-        web: process.env.NODE_ENV !== 'production' ? '/personal-web/dist/web' : '/web',
-        unity: process.env.NODE_ENV !== 'production' ? '/personal-web/dist/unity' : '/unity'
+        phaser:'/phaser',
+        web: '/web',
+        unity: '/unity'
       }
     })
   }
