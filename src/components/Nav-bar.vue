@@ -12,7 +12,7 @@
     <ul class="nav bg-light justify-content-center border nav-tabs">
   
       <li class="nav-item">
-        <a class="nav-link  flex-sm-fill text-sm-center " data-toggle="tab" href="/phaser">Phaser作品</a>
+        <a class="nav-link  flex-sm-fill text-sm-center " data-toggle="tab" href={{ links.phaser }}>Phaser作品</a>
       </li>
       <li class="nav-item">
         <a class="nav-link flex-sm-fill text-sm-center " data-toggle="tab" href="/web">Web/APP作品</a>
@@ -25,7 +25,13 @@
 </template>
 <script>
 export default {
-
+  data() {
+    return ({
+      links: {
+        phaser: process.env.NODE_ENV === 'production' ? '/personal-web/dist/phaser' : '/'
+      }
+    })
+  }
 }
 </script>
 <style scoped lang="scss">
