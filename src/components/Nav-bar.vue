@@ -12,13 +12,13 @@
     <ul class="nav bg-light justify-content-center border nav-tabs">
   
       <li class="nav-item">
-        <a class="nav-link  flex-sm-fill text-sm-center " data-toggle="tab" :href=links.phaser>Phaser作品</a>
+        <router-link  class="nav-link  flex-sm-fill text-sm-center" :to="links.phaser">Phaser作品</router-link>
       </li>
       <li class="nav-item">
-        <a class="nav-link flex-sm-fill text-sm-center " data-toggle="tab" :href=links.web>Web/APP作品</a>
+        <router-link  class="nav-link  flex-sm-fill text-sm-center" :to="links.web">Web/APP作品</router-link>
       </li>
       <li class="nav-item">
-        <a class="nav-link flex-sm-fill text-sm-center " data-toggle="tab" :href=links.unity>Unity作品</a>
+        <router-link  class="nav-link  flex-sm-fill text-sm-center" :to="links.unity">Unity作品</router-link>
       </li>
     </ul>
   </div>
