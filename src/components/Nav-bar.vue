@@ -12,13 +12,13 @@
     <ul class="nav bg-light justify-content-center border nav-tabs">
   
       <li class="nav-item">
-        <a class="nav-link  flex-sm-fill text-sm-center " data-toggle="tab" href={{ links.phaser }}>Phaser作品</a>
+        <a class="nav-link  flex-sm-fill text-sm-center " data-toggle="tab" :href=links.phaser>Phaser作品</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link flex-sm-fill text-sm-center " data-toggle="tab" href="/web">Web/APP作品</a>
+        <a class="nav-link flex-sm-fill text-sm-center " data-toggle="tab" :href=links.web>Web/APP作品</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link flex-sm-fill text-sm-center " data-toggle="tab" href="/unity">Unity作品</a>
+        <a class="nav-link flex-sm-fill text-sm-center " data-toggle="tab" :href=links.unity>Unity作品</a>
       </li>
     </ul>
   </div>
@@ -28,7 +28,9 @@ export default {
   data() {
     return ({
       links: {
-        phaser: process.env.NODE_ENV === 'production' ? '/personal-web/dist/phaser' : '/'
+        phaser: process.env.NODE_ENV === 'production' ? '/personal-web/dist/phaser' : '/phaser',
+        web: process.env.NODE_ENV === 'production' ? '/personal-web/dist/web' : '/web',
+        unity: process.env.NODE_ENV === 'production' ? '/personal-web/dist/unity' : '/unity'
       }
     })
   }
