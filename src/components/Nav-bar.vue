@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-navbar toggleable="lg" type="light" variant="info">
-      <b-navbar-brand href="/AboutView">
+      <b-navbar-brand :to="links.personal">
         姜昱呈的個人網站
       </b-navbar-brand>
 
@@ -30,7 +30,8 @@ export default {
       links: {
         phaser:'/phaser',
         web: '/web',
-        unity: '/unity'
+        unity: '/unity',
+        personal: '/src/views/AboutView.vue'
       }
     })
   }
