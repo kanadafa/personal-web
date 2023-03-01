@@ -31,7 +31,7 @@ export default {
         phaser:'/phaser',
         web: '/web',
         unity: '/unity',
-        personal: '/src/views/AboutView.vue'
+        personal: '/dist'
       }
     })
   }
