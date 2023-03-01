@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-navbar toggleable="lg" type="light" variant="info">
-      <b-navbar-brand href="/">
+      <b-navbar-brand href="/AboutView">
         姜昱呈的個人網站
       </b-navbar-brand>
 
