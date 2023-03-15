@@ -38,10 +38,10 @@ export default {
 </script>
 <style scoped lang="scss">
 .navbar {
-  background-color: violet !important;
+  background-color: #EDFFEC !important;
   justify-content: center;
 }
 .bg-light{
-  background-color: aquamarine !important;
+  background-color: #CAF7E3 !important;
 }
 </style>

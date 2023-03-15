@@ -15,7 +15,7 @@
 </script>
 <style lang="scss">
 #app {
-  background-color:antiquewhite !important; 
+  background-color:#F6DFEB !important; 
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
