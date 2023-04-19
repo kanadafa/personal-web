@@ -19,6 +19,9 @@
       </li>
       <li class="nav-item">
         <router-link  class="nav-link  flex-sm-fill text-sm-center" :to="links.unity">Unity作品</router-link>
+      </li>      
+      <li class="nav-item">
+        <router-link  class="nav-link  flex-sm-fill text-sm-center" :to="links.unityMMD">UnityMMD作品</router-link>
       </li>
     </ul>
   </div>
@@ -30,7 +33,8 @@ export default {
       links: {
         phaser:'/phaser',
         web: '/web',
-        unity: '/unity'
+        unity: '/unity',
+        unityMMD: '/mmd'
       }
     })
   }

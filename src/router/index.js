@@ -5,6 +5,7 @@ import AboutView from '../views/AboutView.vue'
 import PhaserDemo from '../views/PhaserDemo.vue'
 import WebDemo from '../views/WebDemo.vue'
 import UnityDemo from '../views/UnityDemo.vue'
+import unityMMD from '../views/UnityMMD.vue'
 
 
 Vue.use(VueRouter)
@@ -30,11 +31,11 @@ const routes = [
     name: 'unityDemo',
     component: UnityDemo
   },
-  // {
-  //   path: '/about',
-  //   name: 'about',
-  //   component: AboutView
-  // }
+  {
+    path: '/mmd',
+    name: 'unityMMD',
+    component: unityMMD
+  }
 ]
 
 const router = new VueRouter({
