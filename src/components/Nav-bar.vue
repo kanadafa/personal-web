@@ -2,7 +2,7 @@
   <div>
     <b-navbar toggleable="lg" type="light" variant="info">
       <b-navbar-brand href="/personal-web/dist">
-        姜昱呈的個人介紹網站
+        姜昱呈的個人網站
       </b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
