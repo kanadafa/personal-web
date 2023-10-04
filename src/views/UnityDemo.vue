@@ -9,7 +9,7 @@
     </p>
     <div class="videounity">
       <b-embed type="iframe" aspect="16by9" src="https://www.youtube.com/embed/g8zIvafYGdE"></b-embed>
-      <p>製作感想:這主題我碰程式碼的部分不多，但是去尋找素材，劇情和建置場地等等的工作也是蠻辛苦的</p>
+      <p>製作感想:這主題我碰程式碼的部分不多，去尋找素材，劇情和建置場地等等的工作</p>
     </div>
     <h2>第二個作品:zombie</h2>
     <p>這個遊戲就比較沒有那麼多的劇情，就只是雙人玩家可以一起去遊玩在同一個裝置上的小遊戲，構思有點像是旋風快打這類的雙人競技遊戲 <br>
