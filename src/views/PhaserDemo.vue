@@ -6,6 +6,7 @@
         <strong>可以直接在下方遊玩!!</strong>
         <strong>請注意:此小遊戲只支援網頁瀏覽器(Google,Edge等等)，手機及平板不支援</strong>
       </p>
+      <p>個人部分:遊戲部分素材底圖尋找、音效素材設置、遊戲機制、角色移動以及揮舞動作、怪物隨機生成、血量機制</p>
       <div class="iframe-wrapper">
         <b-embed
           type="iframe"
